@@ -15,7 +15,7 @@ pipeline {
 
     stage('Install dependencies') {
       steps {
-        sh 'cd client && npm i'
+        sh 'ls -la'
       }
     }
 
