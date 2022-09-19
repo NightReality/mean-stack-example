@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('Checkout Code') {
       steps {
-        git(url: 'https://github.com/Neha7199/mean-stack-example', branch: 'main')
+        git(url: 'https://github.com/NightReality/mean-stack-example', branch: 'main')
       }
     }
 
